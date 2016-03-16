@@ -1,0 +1,23 @@
+{
+    "name": "bors/forms-clockpicker",
+
+    "authors": [
+        {
+            "name": "Balancer",
+            "email": "balancer@balancer.ru"
+        }
+    ],
+
+    "require": {
+        "balancer/bors-core": "*",
+        "balancer/bors-ext": "*",
+        "fxp/composer-asset-plugin": "*",
+        "bower-asset/clockpicker": "*"
+    },
+
+	"autoload": {
+		"psr-4": {
+			"B2\\": "./"
+		}
+	}
+}
