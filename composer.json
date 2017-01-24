@@ -11,7 +11,6 @@
     "require": {
         "balancer/bors-core": "*",
         "balancer/bors-ext": "*",
-        "fxp/composer-asset-plugin": "*",
         "bower-asset/clockpicker": "*"
     },
 
