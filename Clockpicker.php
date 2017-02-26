@@ -8,7 +8,7 @@ class Clockpicker extends \bors_forms_element
 	{
 		$form = $this->form();
 
-		\jquery::load();
+		\B2\jQuery::load();
 
 		$html = [];
 
