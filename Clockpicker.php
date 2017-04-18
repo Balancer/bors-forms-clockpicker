@@ -49,14 +49,6 @@ __EOT__;
 		if(defval($params, 'raw') || !$this->label())
 			return $html;
 
-//		if($label = $this->label())
-//			$label = preg_replace('!^(.+?) // (.+)$!', "$1<br/><small>$2</small>", $label);
-
-
-		$element_tpl = $form->templater()->get('form_element_html');
-
-		$row_tpl = $form->templater()->get('form_row_html');
-
-		return sprintf($row_tpl, $this->label_html2(), sprintf($element_tpl, $html));
+		return $this->row_html($html);
 	}
 }
